@@ -2,7 +2,7 @@
 
 This is my first ever project using JavaScript to create a simple app. This calculator handles basic operations only.
 
-**You can check it out here:** [simple calculator](simple-calculator-hwm.netlify.app)
+**You can check it out here:** [simple calculator](https://simple-calculator-hwm.netlify.app)
 
 ![Screen Shot 2022-10-13 at 4 03 48 PM](https://user-images.githubusercontent.com/103898493/195698689-b6b45c3e-54f7-4cf1-a47b-9ddd20285a1d.png)
 
