@@ -30,7 +30,7 @@ compute function to implement just a tiny bit of OOP and see how that would look
 creates cleaner, simpler code and allows for the complexeties of functions to be "hidden away" in a sense (abstracted away). 
 
 The other two major things I would have done is to allow the calculator to handle the addition of negative numbers and to handle the calculation of more 
-than two numnbers ate a time (for example, my calculator can handle 2 + 2 = 4 but not 2 + 2 + 2 = 6). 
+than two numnbers at a time (for example, my calculator can handle 2 + 2 = 4 but not 2 + 2 + 2 = 6). 
 
 ## Lessons Learned
 This was my first real project (other than my website) building something with JavaScript. I learned a whole lot! Some of my main takeaways are:
