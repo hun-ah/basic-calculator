@@ -8,8 +8,7 @@ This is my first ever project using JavaScript to create a simple app. This calc
 
 ## How It's Made:
 
-Disclaimer: I did reference a few calculator tutorials on youtube/google to create this calculator app. I tried to get as far as I could with the JavaScript 
-before referencing any videos. 
+Disclaimer: I did reference a few calculator tutorials on youtube/google to create this calculator app. I did not copy the tutorials step by step nor did I copy/paste any code. I tried to get as far as I could with the JavaScript on my own before referencing any videos. The tutorials were a way for me to have some extra guidance when I was stuck. 
 
 To begin, I created the HTML which consists of the calculator and all of its pieces (display and buttons). After finishing with the HTML, I started to 
 style it with CSS. I wanted my calculator to have a Matrix-esque look to it, so I opted for black and grey as my main colours with a pop of neon green for
