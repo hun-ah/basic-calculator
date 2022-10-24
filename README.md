@@ -7,6 +7,7 @@ This is my first ever project using JavaScript to create a simple app. This calc
 ![Screen Shot 2022-10-13 at 4 03 48 PM](https://user-images.githubusercontent.com/103898493/195698689-b6b45c3e-54f7-4cf1-a47b-9ddd20285a1d.png)
 
 ## How It's Made:
+**Languages used: HTML, CSS, JavaScript**
 
 Disclaimer: I did reference a few calculator tutorials on youtube/google to create this calculator app. I did not copy the tutorials step by step nor did I copy/paste any code. I tried to get as far as I could with the JavaScript on my own before referencing any videos. The tutorials were a way for me to have some extra guidance when I was stuck. 
 
