@@ -1,57 +1,69 @@
 html {
    box-sizing: border-box;
    background: black;
+}
+
+body {
+   display: flex;
+   align-items: center;
+   justify-content: center;
    height: 100vh;
+   margin: 0;
 }
 
 .calculator {
-  border: 8px solid rgb(43, 43, 43);
-  width: 400px;
-  height: 560px;
-  background: rgb(27, 27, 27);
-  margin: 70px auto;
-  border-radius: 5%;
-  box-shadow: 8px 10px rgb(20, 20, 20);
-} 
+   border: 8px solid rgb(43, 43, 43);
+   width: 400px;
+   height: 560px;
+   background: rgb(27, 27, 27);
+   border-radius: 5%;
+   box-shadow: 8px 10px rgb(20, 20, 20);
+}
+
 
 .calculator-screen {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  margin-top: 50px;
-}
-
-.display {
-  background: rgb(0, 0, 0);
-  border: 3px solid rgb(43, 43, 43);
-  width: 300px;
-  height: 60px;
-  border-radius: 5px;
-  padding-right: 15px;
-  padding-top: 15px;
-  text-align: right;
-  font-size: 2rem;
-  color: rgb(72, 255, 0);
-  font-family: 'Orbitron', sans-serif;
-  text-shadow:1px 1px 10px rgba(21, 255, 0, 0.205), 1px 1px 10px rgba(0, 255, 0, 0.486);
-  overflow: hidden;
-  box-shadow: 3px 3px rgb(17, 17, 17);
-}
-
-.calculator-buttons {
    display: flex;
    justify-content: center;
+   margin-top: 50px;
+}
+
+
+.display {
+   background: rgb(0, 0, 0);
+   border: 3px solid rgb(43, 43, 43);
+   width: 300px;
+   height: 60px;
+   border-radius: 5px;
+   padding-right: 15px;
+   padding-top: 15px;
+   text-align: right;
+   font-size: 2rem;
+   color: rgb(72, 255, 0);
+   font-family: 'Orbitron', sans-serif;
+   text-shadow: 1px 1px 10px rgba(21, 255, 0, 0.205), 1px 1px 10px rgba(0, 255, 0, 0.486);
+   overflow: hidden;
+   box-shadow: 3px 3px rgb(17, 17, 17);
+}
+
+
+.calculator-buttons {
    margin-top: 35px;
    flex-direction: column;
 }
 
-.group-a, .group-b, .group-c, .group-d, .group-e {
+
+.group-a,
+.group-b,
+.group-c,
+.group-d,
+.group-e {
    display: flex;
    align-items: center;
    justify-content: center;
    flex-wrap: wrap;
    margin-bottom: 20px;
 }
+
 
 button {
    background: rgb(0, 0, 0);
@@ -85,4 +97,38 @@ button:hover {
 
 .AC:hover {
    background: rgb(255, 0, 0)
+}
+
+@media screen and (max-width: 450px) {
+   .calculator {
+      width: 300px;
+      height: 460px;
+   }
+
+   .display {
+      width: 220px;
+      height: 40px;
+      font-size: 1.5rem;
+      padding-bottom: 4px;
+   }
+
+   .calculator-buttons {
+      margin-top: 30px;
+   }
+
+   button {
+      width: 40px;
+      height: 40px;
+      margin: 0 11px;
+      font-size: 1.2rem;
+   }
+
+   .equals {
+      border-radius: 20px;
+      width: 160px;
+   }
+
+   .AC {
+      font-size: 0.8rem;
+   }
 }
