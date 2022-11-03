@@ -25,9 +25,7 @@ does some math based on that operator (if + was clicked, the calculation would b
 This is a simple run down of how the calculator works!
 
 ## Optimizations:
-If I had more time, I would have written the JS with OOP in mind, to better organize my code and improve it's functionality/readability. I did create the
-compute function to implement just a tiny bit of OOP and see how that would look and feel. It's clear that creating functions in this way 
-creates cleaner, simpler code and allows for the complexeties of functions to be "hidden away" in a sense (abstracted away). 
+If I had more time, I would have written the JS with OOP in mind, to better organize my code and improve it's functionality/readability. 
 
 The other two major things I would have done is to allow the calculator to handle the addition of negative numbers and to handle the calculation of more 
 than two numnbers at a time (for example, my calculator can handle 2 + 2 = 4 but not 2 + 2 + 2 = 6). 
