@@ -1,6 +1,6 @@
 # Basic Calculator
 
-This is my first ever project using JavaScript to create a simple app. This calculator handles basic operations only.
+This is my first project using JavaScript to create a simple app. This calculator handles basic operations only.
 
 **You can check it out here:** [simple calculator](https://simple-calculator-hwm.netlify.app)
 
@@ -11,8 +11,8 @@ This is my first ever project using JavaScript to create a simple app. This calc
 
 Disclaimer: I did reference a few calculator tutorials on youtube/google to create this calculator app. I did not copy the tutorials step by step nor did I copy/paste any code. I tried to get as far as I could with the JavaScript on my own before referencing any videos. The tutorials were a way for me to have some extra guidance when I was stuck. 
 
-To begin, I created the HTML which consists of the calculator and all of its pieces (display and buttons). After finishing with the HTML, I started to 
-style it with CSS. I wanted my calculator to have a Matrix-esque look to it, so I opted for black and grey as my main colours with a pop of neon green for
+To begin, I typed out the HTML which consists of the calculator and all of its pieces (display and buttons). I then did all the styling with CSS. 
+I wanted my calculator to have a Matrix-esque look to it, so I opted for black and grey as my main colours with a pop of neon green for
 the calculator buttons and screen. 
 
 For the JS, I decided to create one event listener for anywhere clicked within the area that contains the calculator buttons and then write logic based on
@@ -31,7 +31,7 @@ The other two major things I would have done is to allow the calculator to handl
 than two numnbers at a time (for example, my calculator can handle 2 + 2 = 4 but not 2 + 2 + 2 = 6). 
 
 ## Lessons Learned
-This was my first real project (other than my website) building something with JavaScript. I learned a whole lot! Some of my main takeaways are:
+This was my first time building an application with JavaScript. I learned a lot! Some of my main takeaways are:
 - learning how to use/implement custom data attributes using data.set
 - nesting if statements to create more complex logic 
 - gaining more experience using built in methods and learning their capabilities/limitations (ie. Number, toString, toFixed, incluces, matches)
